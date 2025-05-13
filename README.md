@@ -28,7 +28,7 @@ expansions:
 # Troubleshooting:
 
 **Known Issues:**
-1. If the parse command returns 0 and you know it is not actually 0, then you have a misconfiguration somewhere. Check if all the steps under [configurations](#configuration)
+1. If the parse command returns 0 and you know it is not actually 0, then you have a misconfiguration somewhere. Check if all the steps under [configurations](#configuration) are carried out correctly.
 2. If the placeholder is not parsing correctly, check if the expansion module is loaded. Either restart your backend server, or issue a `papi reload` command.
 
 # Building from source (Linux):
